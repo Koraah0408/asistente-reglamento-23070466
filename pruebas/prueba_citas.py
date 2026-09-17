@@ -5,6 +5,7 @@ Se corren con:  python -m pruebas.prueba_citas
 No usan pytest ni tocan la red: sólo `assert`. Si una falla, el programa se
 detiene ahí y dice cuál. Si todas pasan, imprime OK.
 """
+from app.bot import leer_permitidos, partir_mensaje, usuario_anonimo
 from app.citas import aviso_citas_invalidas, extraer_citas, validar_citas
 from app.memoria import agregar, recortar
 from app.reglamento import RUTA_POR_OMISION, cargar_reglamento, indice_citas, texto_para_prompt
@@ -85,7 +86,16 @@ except ValueError:
 # que la traza pide documentar.
 # ------------------------------------------------------------------------
 
-# Las tres funciones puras del bot (sección 12.3) se prueban aquí también,
-# cuando exista app/bot.py: leer_permitidos, partir_mensaje y usuario_anonimo.
+# --- Las tres funciones puras del bot (sección 12.3) ---------------------
+assert leer_permitidos("123, 456") == {123, 456}
+assert leer_permitidos("") == set(), "sin lista, el bot no atiende a nadie"
+assert leer_permitidos("12, hola, , 34") == {12, 34}, "lo que no es número se ignora"
+assert partir_mensaje("corto") == ["corto"], "lo que cabe no se parte"
+assert all(len(p) <= 20 for p in partir_mensaje("uno dos tres cuatro cinco seis siete", 20))
+assert partir_mensaje("a\nb", 1) == ["a", "b"], "parte de preferencia en el salto de línea"
+assert len(usuario_anonimo(123456789)) == 10, "10 caracteres del SHA-256"
+assert usuario_anonimo(1) != usuario_anonimo(2), "dos personas distintas, dos claves distintas"
+assert usuario_anonimo(1) == usuario_anonimo("1"), "el mismo id da siempre lo mismo"
+assert str(123456789) not in usuario_anonimo(123456789), "nunca el identificador real"
 
 print("OK")
