@@ -1,0 +1,29 @@
+{
+  "descripcion": "Banco de pruebas de la Práctica 3 · Unidad 1. 12 preguntas sueltas y 2 conversaciones de 3 turnos: 18 llamadas al modelo en total.",
+  "preguntas": [
+    {"id": "R01", "pregunta": "¿Estoy obligado a traer la credencial del Tec a la vista?"},
+    {"id": "R02", "pregunta": "¿Qué pasa si alguien entra al Tec con una navaja o un arma?"},
+    {"id": "R03", "pregunta": "Si me ponen servicio comunitario como sanción, ¿cuántas horas pueden ser?"},
+    {"id": "R04", "pregunta": "Me sancionaron. ¿Cuánto tiempo tengo para inconformarme y ante quién lo presento?"},
+    {"id": "R05", "pregunta": "¿Quién decide qué sanción le toca a un estudiante?"},
+    {"id": "R06", "pregunta": "¿Qué es una baja temporal y qué pasa con mis derechos mientras dura?"},
+    {"id": "R07", "pregunta": "Vamos a ir a un viaje de estudios a Monterrey. ¿Ahí también aplica el reglamento?"},
+    {"id": "R08", "pregunta": "¿Cuántas faltas puedo tener en una materia antes de reprobarla?"},
+    {"id": "R09", "pregunta": "¿Cuáles son los requisitos para presentar un examen extraordinario?"},
+    {"id": "R10", "pregunta": "¿A qué hora abre la cafetería del Tec?"},
+    {"id": "R11", "pregunta": "Un compañero me está acosando por WhatsApp y ya me da miedo venir. ¿Qué hago?"},
+    {"id": "R12", "pregunta": "Copié un programa de internet para una tarea sin decir de dónde era. ¿El reglamento dice algo?"}
+  ],
+  "conversaciones": [
+    {"id": "C1", "turnos": [
+      "¿Qué sanciones contempla el reglamento?",
+      "¿Y cuál es la más grave?",
+      "¿Esa se puede apelar?"
+    ]},
+    {"id": "C2", "turnos": [
+      "¿Puedo vender dulces en los pasillos del Tec?",
+      "¿Y si tengo un permiso por escrito?",
+      "¿Qué criterios se toman en cuenta para decidir la sanción si me cachan sin permiso?"
+    ]}
+  ]
+}

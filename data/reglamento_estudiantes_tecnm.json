@@ -1,0 +1,568 @@
+{
+  "documento": "Reglamento de Estudiantes del Tecnológico Nacional de México",
+  "aprobacion": "31 de enero de 2023, previa opinión favorable del Consejo Académico (acuerdo SE/I-2023/CA05)",
+  "difusion": "Circular M00/0017/2023 de la Dirección General del TecNM, 10 de febrero de 2023",
+  "fuente": "Documento oficial del TecNM, publicado en https://www.tecnm.mx/",
+  "nota": "Transcripción del cuerpo normativo (títulos, artículos y transitorios). Se omiten los considerandos, el índice, los encabezados de página y la firma. La ortografía del original se conserva.",
+  "articulos": [
+    {
+      "numero": 1,
+      "titulo": "Título Primero. Disposiciones generales",
+      "encabezado": "El presente Reglamento tiene por objeto establecer los derechos y obligaciones de la comunidad estudiantil del Tecnológico Nacional de México, así como regular las conductas prohibidas, el procedimiento sancionador, el recurso de revisión y la interpretación del mismo. Asimismo, será responsabilidad de los Institutos, Unidades y Centros adscritos al TecNM, difundir, divulgar y comunicar desde el inicio de la trayectoria como estudiante, la existencia del reglamento, dejando constancia fehaciente de dicho acto."
+    },
+    {
+      "numero": 2,
+      "titulo": "Título Primero. Disposiciones generales",
+      "encabezado": "Para efectos del presente Reglamento se entenderá por:",
+      "fracciones": [
+        {
+          "id": "I",
+          "texto": "TecNM. Dirección General del Tecnológico Nacional de México, así como los institutos, unidades y centros que lo integran."
+        },
+        {
+          "id": "II",
+          "texto": "Estudiante. Es la persona inscrita en cualquiera de los Programas Educativos del TecNM en sus diferentes niveles del tipo superior y sus modalidades de estudio: escolarizada, no escolarizada o mixta, conforme a las disposiciones aplicables."
+        },
+        {
+          "id": "III",
+          "texto": "Comunidad Estudiantil. Es el conjunto de personas inscritas en alguno de los programas educativos del TecNM."
+        },
+        {
+          "id": "IV",
+          "texto": "Comunidad del TecNM. Conjunto de personas integrado por personal docente, administrativo, directivo, proveedores(as), además de la comunidad estudiantil."
+        },
+        {
+          "id": "V",
+          "texto": "Plan de estudios. Modelo sintético, esquematizado y estructurado de las asignaturas y otras unidades de aprendizaje, incluye el/los propósito(s) de formación general, así como una propuesta de evaluación para mantener su pertinencia y vigencia."
+        },
+        {
+          "id": "VI",
+          "texto": "Programa(s) de estudio. Es la descripción sintetizada de los contenidos de las asignaturas o unidades de aprendizaje que especifican de manera coherente los propósitos, experiencias de aprendizaje y criterios de evaluación con los cuales se verificará el logro de los aprendizajes adquiridos. Los recursos didácticos que han de apoyar el proceso de enseñanza-aprendizaje deben estar relacionados con el Programa de estudio."
+        },
+        {
+          "id": "VII",
+          "texto": "Servicio comunitario. Actividades académico/administrativas en beneficio de la comunidad estudiantil del TecNM."
+        },
+        {
+          "id": "VIII",
+          "texto": "Carta compromiso. Documento que se entrega a la comunidad estudiantil de nuevo ingreso, mediante el que se informa a la Comunidad Estudiantil de los servicios educativos primordiales que se les brindarán durante su estancia en el TecNM, y a la vez, de las obligaciones a cumplir por parte de dicha comunidad."
+        },
+        {
+          "id": "IX",
+          "texto": "Trayectoria escolar. Tránsito académico de la comunidad estudiantil desde su ingreso hasta su egreso. durante los periodos autorizados, debidamente registrado para conocer su desempeño escolar."
+        },
+        {
+          "id": "X",
+          "texto": "Comité Académico. Órgano colegiado que atiende, analiza, evalúa, emite propuestas y recomendaciones académico-administrativas a el(la) Director(a) del Instituto, que impactan en el desarrollo institucional, coadyuvando a la mejora continua de los procesos estratégicos del Modelo Educativo vigente. Para este reglamento, es el órgano colegiado del TecNM que conocerá las conductas prohibidas de las/los estudiantes y propondrá las sanciones a el/la Directora/a."
+        },
+        {
+          "id": "XI",
+          "texto": "Egresado/a. Estudiante que cubre la totalidad de los créditos de las asignaturas o actividades académicas establecidos en el plan de estudios del TecNM."
+        },
+        {
+          "id": "XII",
+          "texto": "Baja definitiva. Es la separación total de el/la estudiante del TecNM por decisión propia o por determinación institucional."
+        },
+        {
+          "id": "XIII",
+          "texto": "Baja temporal. Es el trámite que realiza el/la estudiante en el nivel educativo en el que está inscrito/a, autorizado por el TecNM, para suspender durante un periodo lectivo sus estudios."
+        }
+      ]
+    },
+    {
+      "numero": 3,
+      "titulo": "Título Primero. Disposiciones generales",
+      "encabezado": "La condición de estudiante se pierde por las causas siguientes:",
+      "fracciones": [
+        {
+          "id": "I",
+          "texto": "Por baja definitiva: A petición expresa del estudiante, formalizada con una solicitud."
+        },
+        {
+          "id": "II",
+          "texto": "Por no concluir los estudios dentro de los términos que marcan los planes de estudio conforme lo indica la normatividad académica-administrativa aplicable."
+        },
+        {
+          "id": "III",
+          "texto": "Como consecuencia de las acciones que menoscaben la disciplina o el prestigio del TecNM, en apego a lo establecido por el presente Reglamento."
+        },
+        {
+          "id": "IV",
+          "texto": "Por cumplir satisfactoriamente los requisitos del plan de estudios y convertirse en egresado/a."
+        }
+      ],
+      "cierre": "La baja temporal suspende la condición de estudiante, mientras dure ésta, los/as estudiantes que se encuentren en baja temporal, no podrán ejercer sus derechos."
+    },
+    {
+      "numero": 4,
+      "titulo": "Título Primero. Disposiciones generales",
+      "encabezado": "Para conservar la condición de estudiante, éste deberá realizar los procesos de inscripción y reinscripción durante los semestres correspondientes, hasta la culminación de sus estudios, dentro de los términos y bajo las condiciones que especifican los planes de estudio y conforme lo indica la normatividad académica aplicable."
+    },
+    {
+      "numero": 5,
+      "titulo": "Título Segundo. De los derechos y obligaciones",
+      "encabezado": "Los derechos y obligaciones de la comunidad estudiantil del TecNM se encuentran asentados sobre los siguientes principios:",
+      "fracciones": [
+        {
+          "id": "I",
+          "texto": "De Igualdad. Toda la Comunidad Estudiantil gozará de los mismos derechos y obligaciones previstos en el presente Reglamento."
+        },
+        {
+          "id": "II",
+          "texto": "De No Discriminación. Queda prohibida toda distinción, exclusión, restricción o preferencia que, con intención o sin ella, no sea objetiva, racional ni proporcional y tenga por objeto obstaculizar, disminuir o impedir los derechos de cualquier persona, por motivos de origen (nacionalidad o situación migratoria, origen étnico, color de piel o cultura, lengua o idioma), personalidad (sexo, identidad o expresión de género, características u orientación sexual), ideología (religión, opinión, identidad o filiación política), condiciones físicas y de salud (apariencia, edad, embarazo, condición de salud, discapacidad, o cualquier característica genética); condición familiar o socioeconómica, o cualquier otro."
+        },
+        {
+          "id": "III",
+          "texto": "De Respeto. Reconocimiento pleno y efectivo de la dignidad inherente a toda persona, de la identidad y los valores colectivos, las instituciones, así como la no interferencia en el goce de los bienes ajenos y comunes."
+        },
+        {
+          "id": "IV",
+          "texto": "De Proscripción de la violencia. Erradicar cualquier conducta que transgreda física, económica, verbal, psicológica, emocional o sexualmente a la Comunidad del TecNM."
+        },
+        {
+          "id": "V",
+          "texto": "De Legalidad. Todos los actos deben ser conforme a la ley, con amplio respeto a los derechos humanos."
+        },
+        {
+          "id": "VI",
+          "texto": "De ética al medio ambiente. Cuidar y preservar el ambiente, no solo individualmente, sino también como organizaciones pensando en las generaciones futuras."
+        }
+      ]
+    },
+    {
+      "numero": 6,
+      "titulo": "Título Segundo. De los derechos y obligaciones",
+      "encabezado": "Son derechos de la comunidad estudiantil del TecNM:",
+      "fracciones": [
+        {
+          "id": "I",
+          "texto": "Ser reconocido como estudiante del TecNM, una vez aceptado y después de concluir los trámites de inscripción y reinscripción, mediante la asignación de un número de control y una carga académica vigente de acuerdo con su plan de estudios."
+        },
+        {
+          "id": "II",
+          "texto": "Recibir el servicio educativo y de formación integral en los términos prescritos en este reglamento."
+        },
+        {
+          "id": "III",
+          "texto": "Tener acceso a las instalaciones destinadas para su uso, previo al cumplimiento de los requisitos de los diferentes programas educativos autorizados en los términos prescritos en el presente Reglamento y otras disposiciones aplicables"
+        },
+        {
+          "id": "IV",
+          "texto": "Ser tratado con dignidad por la Comunidad del TecNM y la Comunidad Estudiantil, promoviendo en todo momento, el respeto a la integridad personal."
+        },
+        {
+          "id": "V",
+          "texto": "Cursar el plan de estudios de su elección vigente a la fecha de su inscripción de acuerdo con los programas establecidos por el TecNM."
+        },
+        {
+          "id": "VI",
+          "texto": "Tener acceso a los diferentes programas sociales, estímulos y otros beneficios disponibles para lograr su permanencia en el TecNM, previo al cumplimiento de requisitos y procedimientos de selección."
+        },
+        {
+          "id": "VII",
+          "texto": "Participar en todo lo referente a las actividades estudiantiles de índole académico, deportivo y cultural conforme a la normatividad correspondiente."
+        },
+        {
+          "id": "VIII",
+          "texto": "Participar libremente en la sociedad de alumnos para coadyuvar en la gestión de solicitudes académicas, administrativas y culturales de la comunidad estudiantil, en términos de la normatividad que para tal efecto se emita."
+        },
+        {
+          "id": "IX",
+          "texto": "Representar al TecNM, previo proceso de selección, en los eventos académicos, científicos, deportivos, culturales y cívicos, organizados por éste o por instancias externas, supeditado a los recursos disponibles y conforme a la normatividad correspondiente."
+        },
+        {
+          "id": "X",
+          "texto": "Proponer y colaborar en la organización de eventos académicos, seminarios, conferencias y otras actividades relacionadas con su formación, bajo la coordinación de la Jefatura del Departamento Académico o de Apoyo respectivo."
+        },
+        {
+          "id": "XI",
+          "texto": "Obtener respuesta en tiempo y forma, a sus peticiones, siempre que sean por escrito, pacíficas y respetuosas, relacionadas con su formación profesional."
+        },
+        {
+          "id": "XII",
+          "texto": "Ejercer la defensa de sus derechos conforme a lo establecido en el presente Reglamento y demás disposiciones aplicables, a través de las instancias escolares y/o administrativas existentes para tal efecto."
+        },
+        {
+          "id": "XIII",
+          "texto": "Expresar libremente sus ideas y opiniones de manera responsable, respetando los valores, el marco jurídico, la vida académica, las instalaciones y a la comunidad del TecNM."
+        },
+        {
+          "id": "XIV",
+          "texto": "Contar con la protección de la información personal proporcionada al TecNM para uso exclusivo de los procesos de prestación del servicio educativo, tutorías, solicitudes de beca, actividades culturales, deportivas, cívicas, eventos de egresados, e información solicitada por instancias gubernamentales y privadas, conforme a lo dispuesto en la Ley Federal de Transparencia y Acceso a la Información Pública y la Ley General de Protección de Datos Personales en Posesión de Sujetos Obligados."
+        },
+        {
+          "id": "XV",
+          "texto": "Respeto irrestricto por el derecho de autoría o de referencia en las investigaciones y publicaciones en que participen de acuerdo con la normativa del IMPI (Instituto Mexicano de la Propiedad Intelectual) y el INDAUTOR (Instituto Nacional del Derecho de Autor), así como en el uso, publicación o comercialización, de los diseños, materiales e instrumentos entregados para la evaluación de su conocimiento."
+        },
+        {
+          "id": "XVI",
+          "texto": "Manifestar por escrito, de manera respetuosa y pacífica, en lo individual o en grupo, sus peticiones, sugerencias e inconformidades."
+        },
+        {
+          "id": "XVII",
+          "texto": "Denunciar ante la autoridad competente la perpetración de un hecho constitutivo de delito dentro del TecNM."
+        },
+        {
+          "id": "XVIII",
+          "texto": "Los demás que se deriven del presente Reglamento y de otros ordenamientos jurídicos y administrativos aplicables."
+        }
+      ]
+    },
+    {
+      "numero": 7,
+      "titulo": "Título Segundo. De los derechos y obligaciones",
+      "encabezado": "Son obligaciones de la comunidad estudiantil del TecNM:",
+      "fracciones": [
+        {
+          "id": "I",
+          "texto": "Conducirse con respeto ante la comunidad del TecNM."
+        },
+        {
+          "id": "II",
+          "texto": "Conocer y cumplir el presente Reglamento y los demás ordenamientos jurídicos, así como los respectivos lineamientos o documentos aplicables a los diferentes niveles educativos que oferta el TecNM en sus respectivas modalidades de estudio."
+        },
+        {
+          "id": "III",
+          "texto": "Cursar el plan de estudios en concordancia con las sesiones y actividades programas en cada unidad de aprendizaje."
+        },
+        {
+          "id": "IV",
+          "texto": "Cumplir con lo establecido en los lineamientos normativos o documentos aplicables a la trayectoria escolar con la finalidad de concluir satisfactoriamente su plan de estudios."
+        },
+        {
+          "id": "V",
+          "texto": "Asistir a las tutorías y asesorías que le sean asignadas con motivo de su trayectoria escolar y desempeño académico."
+        },
+        {
+          "id": "VI",
+          "texto": "Atender en tiempo y forma las notificaciones del TecNM mediante los mecanismos de comunicación establecidos para tal efecto."
+        },
+        {
+          "id": "VII",
+          "texto": "Asistir puntualmente a clases, acorde a su carga académica en el espacio educativo correspondiente a la modalidad en que se encuentra inscrito."
+        },
+        {
+          "id": "VIII",
+          "texto": "Participar de manera constructiva en los mecanismos establecidos para la evaluación del desempeño del personal docente que tiene en el semestre cursado."
+        },
+        {
+          "id": "IX",
+          "texto": "Atender las reglas de buena conducta, urbanidad y convivencia institucional, instauradas por las autoridades del TecNM y dar cumplimiento a lo estipulado en la carta compromiso."
+        },
+        {
+          "id": "X",
+          "texto": "Proporcionar y mantener actualizados los datos personales que permitan la localización de la madre, padre o tutor para las situaciones en que se considere necesario."
+        },
+        {
+          "id": "XI",
+          "texto": "Realizar oportunamente los trámites administrativos y/o académicos relacionados con su formación profesional, como son: inscripción, reinscripción, servicio social, actividades complementarias, residencias profesionales y titulación."
+        },
+        {
+          "id": "XII",
+          "texto": "Cumplir con la reglamentación vigente, interna y/o externa, que evalúe su desempeño."
+        },
+        {
+          "id": "XIII",
+          "texto": "Notificar a la autoridad en tiempo y forma sobre las situaciones que considere afecten su servicio educativo."
+        },
+        {
+          "id": "XIV",
+          "texto": "Observar en todo momento, un comportamiento que enaltezca el nombre y la calidad académica del TecNM."
+        },
+        {
+          "id": "XV",
+          "texto": "Portar de manera visible la credencial que otorga el TecNM, que lo identifique como estudiante inscrito y mostrarla cada vez que le sea requerida por las autoridades; dicha credencial es intransferible y debe emplearse para realizar todos los trámites académicos y administrativos."
+        },
+        {
+          "id": "XVI",
+          "texto": "Respetar, mantener y salvaguardar los bienes muebles e inmuebles que formen parte del patrimonio del TecNM o que se encuentren dentro de las instalaciones del plantel."
+        },
+        {
+          "id": "XVII",
+          "texto": "Respetar a los miembros de la comunidad del TecNM y de la Comunidad Estudiantil, así como a cualquier persona que transite en las instalaciones del TecNM y mantener esta postura, cuando se acuda como representante del TecNM."
+        },
+        {
+          "id": "XVIII",
+          "texto": "Evitar permanentemente practicar, participar o incitar el Acoso Escolar (Bullying) y/o sexual por cualquier medio hacia la comunidad del TecNM así como hacia cualquier persona que transite en el TecNM o al estar en alguna actividad organizada, programada o autorizada por el TecNM."
+        },
+        {
+          "id": "XIX",
+          "texto": "Evitar permanentemente practicar, participar o incitar el Sexting por cualquier medio hacia la comunidad del TecNM; así como hacia cualquier persona que transite en el TecNM o al estar en alguna actividad organizada, programada o autorizada por el TecNM."
+        },
+        {
+          "id": "XX",
+          "texto": "Evitar de forma permanente el plagio en tareas, trabajos de tesis, investigaciones, desarrollos tecnológicos, artículos técnicos, científicos, presentaciones en congresos, informes de residencias profesionales, utilización de software y otros, donde el TecNM pueda ser afectado en temas de propiedad intelectual (propiedad industrial, derechos de autor y variedades vegetales)."
+        },
+        {
+          "id": "XXI",
+          "texto": "Denunciar cualquier hecho, situación o circunstancia que contravenga el presente reglamento ante las autoridades competentes mediante los mecanismos que se establezcan para tal efecto."
+        },
+        {
+          "id": "XXII",
+          "texto": "Informar al TecNM, respecto a enfermedades adquiridas, trastornos, síndromes, necesidades educativas especiales vinculadas o no a una discapacidad, anexando el diagnóstico médico y/o psicopedagógico de un especialista acreditado, así como las recomendaciones pertinentes, a fin de realizar acciones de orientación y movilidad que favorezcan su accesibilidad en el TecNM."
+        },
+        {
+          "id": "XXIII",
+          "texto": "Las demás que se deriven del presente Reglamento y de otros ordenamientos jurídicos y administrativos aplicables."
+        }
+      ]
+    },
+    {
+      "numero": 8,
+      "titulo": "Título Segundo. De los derechos y obligaciones",
+      "encabezado": "Es motivo de sanción incurrir en alguna de las siguientes conductas prohibidas:",
+      "fracciones": [
+        {
+          "id": "I",
+          "texto": "Desatender las reglas de buena conducta, urbanidad y de convivencia institucional instauradas por la autoridad del TecNM y señaladas en la carta compromiso."
+        },
+        {
+          "id": "II",
+          "texto": "Llevar a cabo juegos de azar y de apuestas, así como la venta de artículo(s) y/o servicio(s), no autorizada por escrito, por el TecNM."
+        },
+        {
+          "id": "III",
+          "texto": "Falsificar o alterar documentos oficiales de cualquier dependencia o instancia ya sea pública o privada."
+        },
+        {
+          "id": "IV",
+          "texto": "Utilizar documentos falsos o alterados en cualquier proceso o trámite ante el TecNM."
+        },
+        {
+          "id": "V",
+          "texto": "Hacer mal uso del nombre, escudos o lemas del TecNM."
+        },
+        {
+          "id": "VI",
+          "texto": "Intimidar, acosar, hostigar, discriminar, provocar o asumir actitudes irrespetuosas de cualquier forma a algún miembro de la comunidad del TecNM."
+        },
+        {
+          "id": "VII",
+          "texto": "Hacer uso indebido de cuentas de correo electrónico, redes sociales, páginas web o sistemas de información institucionales."
+        },
+        {
+          "id": "VIII",
+          "texto": "Portar cualquier tipo de armas, explosivos, objetos, instrumentos, medios o máquinas destinados o creados para atacar o producir lesiones."
+        },
+        {
+          "id": "IX",
+          "texto": "Distribuir o consumir bebidas embriagantes o concurrir en estado de ebriedad."
+        },
+        {
+          "id": "X",
+          "texto": "Consumir, poseer o distribuir psicotrópicos o estupefacientes o cualquier tipo de droga dentro de las instalaciones y/o en el estacionamiento vehicular del TecNM, o concurrir al TecNM bajo la influencia de alguno de ellos, salvo prescripción médica debidamente expedida y notificada al TecNM."
+        },
+        {
+          "id": "XI",
+          "texto": "Interrumpir, alterar u obstaculizar las actividades del TecNM, violentando los principios institucionales y/o que atenten contra las instalaciones o bienes tangibles e intangibles del TecNM o contra la integridad de la comunidad del TecNM."
+        },
+        {
+          "id": "XII",
+          "texto": "Recurrir a cualquier forma de violencia en contra de cualquier miembro de la comunidad del TecNM."
+        },
+        {
+          "id": "XIII",
+          "texto": "Sobornar, estafar, timar o ejercer actividades en perjuicio del patrimonio del TecNM o de la comunidad del TecNM."
+        },
+        {
+          "id": "XIV",
+          "texto": "Suplantar o permitir ser suplantado en cualquier actividad inherente al estudiante."
+        },
+        {
+          "id": "XV",
+          "texto": "Apoderarse indebidamente de bienes o documentos que formen parte del patrimonio de cualquier miembro de la comunidad del TecNM."
+        },
+        {
+          "id": "XVI",
+          "texto": "Cometer, incitar, inducir y/o propiciar actos u omisiones que puedan transgredir el presente Reglamento y demás ordenamientos aplicables."
+        },
+        {
+          "id": "XVII",
+          "texto": "Quebrantar los derechos de propiedad intelectual del TecNM o de la comunidad del TecNM, conforme al marco normativo aplicable."
+        },
+        {
+          "id": "XVIII",
+          "texto": "Destruir o dañar las instalaciones, equipo, maquinaria, mobiliario y demás bienes que integran el patrimonio del TecNM o de terceros en actividades institucionales."
+        },
+        {
+          "id": "XIX",
+          "texto": "Realizar cualquier acto u omisión que atente contra cualquier miembro de la comunidad del TecNM o que ponga en riesgo el prestigio académico o institucional."
+        },
+        {
+          "id": "XX",
+          "texto": "Utilizar el patrimonio del TecNM para fines distintos a los que está destinado."
+        },
+        {
+          "id": "XXI",
+          "texto": "Cometer cualquier acción prevista como delito o falta administrativa por la legislación vigente."
+        }
+      ]
+    },
+    {
+      "numero": 9,
+      "titulo": "Título Tercero. De las sanciones",
+      "encabezado": "Cualquier estudiante que incurra en las conductas prohibidas previstas en el presente Reglamento se hará acreedor, según corresponda, a las siguientes sanciones:",
+      "fracciones": [
+        {
+          "id": "I",
+          "texto": "Amonestación verbal o por escrito de la conducta o acto cometido;"
+        },
+        {
+          "id": "II",
+          "texto": "Servicio comunitario dentro del TecNM, de acuerdo con la falta cometida; el servicio comunitario no podrá ser menor a 60 horas ni mayor 240 horas y no se podrá imponer dos veces la sanción de servicio comunitario a la misma persona."
+        },
+        {
+          "id": "III",
+          "texto": "Suspensión del derecho a representar al TecNM en eventos académicos, de formación integral y de representación estudiantil."
+        },
+        {
+          "id": "IV",
+          "texto": "Suspensión temporal de su calidad de estudiante, pudiendo ser: a. Suspensión de sus derechos estudiantiles de 1 a 15 días hábiles. b. Suspensión de sus derechos estudiantiles por el resto del semestre en curso. c. Suspensión de sus derechos estudiantiles por un semestre y,"
+        },
+        {
+          "id": "V",
+          "texto": "Baja definitiva del TecNM."
+        }
+      ],
+      "cierre": "Lo anterior, sin perjuicio de la responsabilidad legal que pudiera resultar. El Comité Académico tendrá la responsabilidad de dar vista a la autoridad correspondiente de los hechos."
+    },
+    {
+      "numero": 10,
+      "titulo": "Título Cuarto. Del procedimiento sancionador",
+      "encabezado": "Para determinar la sanción a que haya lugar, se tomará en cuenta la gravedad de la falta, considerando los siguientes criterios:",
+      "fracciones": [
+        {
+          "id": "I",
+          "texto": "La conducta observada y documentada."
+        },
+        {
+          "id": "II",
+          "texto": "El expediente y trayectoria escolar del estudiante."
+        },
+        {
+          "id": "III",
+          "texto": "Las causas y circunstancias de la conducta cometida, de acuerdo con el Artículo 8 de este Reglamento."
+        },
+        {
+          "id": "IV",
+          "texto": "Las consecuencias generadas, y"
+        },
+        {
+          "id": "V",
+          "texto": "La reincidencia."
+        }
+      ],
+      "cierre": "En todo caso, la sanción deberá guardar proporcionalidad y equidad con respecto a la falta cometida y a los antecedentes académicos de su infractor. El expediente escolar de cada estudiante incluirá un apartado específico para el registro de las sanciones."
+    },
+    {
+      "numero": 11,
+      "titulo": "Título Cuarto. Del procedimiento sancionador",
+      "encabezado": "Las sanciones previstas en el presente reglamento serán integradas en el expediente escolar del estudiante y se aplicarán por cada infracción de manera independiente, de acuerdo a la gravedad de la misma."
+    },
+    {
+      "numero": 12,
+      "titulo": "Título Cuarto. Del procedimiento sancionador",
+      "encabezado": "Las sanciones por actos prohibidos serán emitidas por el(la) Director(a) del plantel a propuesta del Comité Académico."
+    },
+    {
+      "numero": 13,
+      "titulo": "Título Cuarto. Del procedimiento sancionador",
+      "encabezado": "Cualquier integrante de la comunidad del TecNM, dará a conocer la existencia de posibles faltas o conductas prohibidas, a través de escrito dirigido a la Dirección del plantel. Los escritos que contemplen faltas de las y los estudiantes, serán remitidos de inmediato por este último al Comité Académico."
+    },
+    {
+      "numero": 14,
+      "titulo": "Título Cuarto. Del procedimiento sancionador",
+      "encabezado": "El Comité Académico deberá:",
+      "fracciones": [
+        {
+          "id": "1",
+          "texto": "Documentar las evidencias del hecho."
+        },
+        {
+          "id": "2",
+          "texto": "Analizar las evidencias del hecho y el expediente de las o los estudiantes involucrados."
+        },
+        {
+          "id": "3",
+          "texto": "Otorgar el derecho de audiencia al/los estudiante/s involucrado/s para que manifiesten por escrito lo que a su derecho e interés convenga y, en su caso, presente(n) las pruebas que consideren convenientes para el esclarecimiento de su caso."
+        },
+        {
+          "id": "4",
+          "texto": "Analizar las evidencias y pruebas para emitir la propuesta de sanción correspondiente."
+        }
+      ]
+    },
+    {
+      "numero": 15,
+      "titulo": "Título Quinto. Del recurso de revisión",
+      "encabezado": "Cualquier estudiante que se considere afectado por la sanción propuesta por el Comité Académico y emitida por la Dirección del plantel, podrá presentar recurso de revisión para impugnar la sanción, dentro del término de diez días hábiles, después de ser notificado de la sanción correspondiente; dicho escrito de interposición, deberá presentarse ante la autoridad que emitió la resolución a refutar y será resuelto por el superior jerárquico."
+    },
+    {
+      "numero": 16,
+      "titulo": "Título Quinto. Del recurso de revisión",
+      "encabezado": "Una vez presentado el recurso de revisión, la Dirección del plantel deberá enviarlo a la Dirección General del Tecnológico Nacional de México en el término máximo de cinco días hábiles."
+    },
+    {
+      "numero": 17,
+      "titulo": "Título Quinto. Del recurso de revisión",
+      "encabezado": "El fallo que confirme, modifique o revoque la sanción impugnada será dictado en un plazo máximo de treinta días, y será irrevocable."
+    },
+    {
+      "numero": 18,
+      "titulo": "Título Sexto. Observancia y vigilancia de este reglamento",
+      "encabezado": "Dada la naturaleza de este reglamento, su conocimiento y observancia son obligatorios para toda la comunidad estudiantil. Esto incluye a aquellos estudiantes que provengan de otras Universidades dentro del Programa de Intercambio Internacional. El desconocimiento de este reglamento nunca podrá ser invocado como excusa para evitar la aplicación de las sanciones correspondientes."
+    },
+    {
+      "numero": 19,
+      "titulo": "Título Sexto. Observancia y vigilancia de este reglamento",
+      "encabezado": "Todos los artículos de este reglamento son aplicables a eventos ocurridos en:",
+      "fracciones": [
+        {
+          "id": "I",
+          "texto": "Las instalaciones e inmediaciones del TecNM a las que asisten los/las estudiantes del TecNM que participan en programas de intercambio nacionales o internacionales."
+        },
+        {
+          "id": "II",
+          "texto": "Cualquier instalación del TecNM."
+        },
+        {
+          "id": "III",
+          "texto": "Cualquier actividad oficial, académica o curricular que se efectúe dentro o fuera de las instalaciones del TecNM."
+        },
+        {
+          "id": "IV",
+          "texto": "Actividades organizadas por algún grupo estudiantil del TecNM."
+        },
+        {
+          "id": "V",
+          "texto": "Actividades ajenas al TecNM cuando el comportamiento de el/la estudiante dañe el prestigio del TecNM."
+        }
+      ]
+    },
+    {
+      "numero": 20,
+      "titulo": "Título Sexto. Observancia y vigilancia de este reglamento",
+      "encabezado": "La observancia de este reglamento implica que la comunidad estudiantil respete los reglamentos del TecNM cuando se encuentren de visita o participando en actividades como invitados/as, o como estudiantes de intercambio dentro del TecNM o en otras universidades. La violación del presente reglamento y las violaciones a la ley de los estados o naciones que visiten las/los estudiantes, serán igualmente sancionadas por este reglamento. En caso de la realización de viajes de estudios organizados por grupos estudiantiles, las/los estudiantes están sujeto a las disposiciones del presente reglamento."
+    },
+    {
+      "numero": 21,
+      "titulo": "Título Sexto. Observancia y vigilancia de este reglamento",
+      "encabezado": "El Comité Académico y los miembros del TecNM que tienen facultades para imponer sanciones deben actuar conforme a las disposiciones de este reglamento."
+    },
+    {
+      "numero": 22,
+      "titulo": "Título Séptimo. De la interpretación del reglamento",
+      "encabezado": "La interpretación del presente reglamento quedará a cargo de la Dirección General del Tecnológico Nacional de México, a través de la Dirección Jurídica."
+    }
+  ],
+  "transitorios": [
+    {
+      "id": "PRIMERO",
+      "texto": "El presente Reglamento entrará en vigor al día siguiente de su publicación."
+    },
+    {
+      "id": "SEGUNDO",
+      "texto": "Se derogan las disposiciones que se opongan a lo establecido en el presente Reglamento."
+    }
+  ]
+}
