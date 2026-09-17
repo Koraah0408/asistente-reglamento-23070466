@@ -161,7 +161,13 @@ def construir(simulado=False, ruta_reglamento=RUTA_POR_OMISION, ruta_sistema=RUT
     else:
         # Se importa aquí y no arriba a propósito: así el modo simulado funciona
         # aunque el SDK de Gemini no esté instalado todavía.
-        from app.modelo import llamar_modelo
+        try:
+            from app.modelo import llamar_modelo
+        except ImportError:
+            raise RuntimeError(
+                "Falta el SDK de Gemini. Active el entorno virtual e instale con "
+                "pip install -r requirements.txt, o corra el programa con --simulado."
+            )
 
         llamar = llamar_modelo
 

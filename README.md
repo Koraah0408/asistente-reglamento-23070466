@@ -61,6 +61,8 @@ copy .env.example .env
 
 Después abra `.env` y escriba su clave. El modo simulado (`--simulado`) funciona sin clave y sin internet.
 
+En Windows, si `python` en el PATH apunta a otra instalación (por ejemplo la que traen Inkscape o la Microsoft Store), conviene crear el entorno con el lanzador: `py -m venv .venv`. Una vez activado el entorno, `python` ya apunta al del proyecto.
+
 ## Variables de entorno
 
 Van en `.env`, que **no se sube al repositorio**: está en `.gitignore` desde antes del primer commit. `.env.example` es la plantilla, con los nombres pero sin valores.
