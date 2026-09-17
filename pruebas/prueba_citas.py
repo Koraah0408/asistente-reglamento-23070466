@@ -43,6 +43,12 @@ assert extraer_citas("Artículo 9 fracción II") == ["9.II"], "sin coma y con la
 assert extraer_citas("Art. 14, numeral 3") == ["14.3"], "el artículo 14 usa numerales"
 assert extraer_citas("Art. 9, fracc. II; Art. 9, fracc. II") == ["9.II"], "sin repetir"
 assert extraer_citas("Art. 15 y luego Art. 8") == ["15", "8"], "en orden de aparición"
+assert extraer_citas("ARTÍCULO 7, FRACC. XV") == ["7.XV"], "mayúsculas"
+assert extraer_citas("Art 7, fracc XV") == ["7.XV"], "sin puntos"
+assert extraer_citas("(Art. 9, fracc. V)") == ["9.V"], "entre paréntesis"
+assert extraer_citas("**Art. 9, fracc. II**") == ["9.II"], "con negritas de markdown"
+assert extraer_citas("Art. 9, fracc. IV, inciso a") == ["9.IV"], "el inciso no es parte de la clave"
+assert extraer_citas("el artículo noveno") == [], "sin número no hay cita"
 
 # --- Validar citas ------------------------------------------------------
 resultado = validar_citas(["9.II", "31.II", "15"], indice)

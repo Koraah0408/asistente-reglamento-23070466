@@ -70,6 +70,13 @@ def llamar_modelo(historial, sistema):
         ),
     )
 
+    texto = respuesta.text or ""
+    if not texto:
+        # Pasa cuando un filtro de seguridad bloquea la respuesta: la llamada no
+        # falla, pero no viene texto. En vez de guardar un turno en blanco en la
+        # bitácora, se registra el motivo, que también es un resultado.
+        texto = "El modelo no devolvió texto. Motivo: %s" % motivo_sin_texto(respuesta)
+
     uso = respuesta.usage_metadata
     tokens_entrada = (uso.prompt_token_count or 0) if uso else 0
     # Los modelos actuales "piensan" antes de responder y esos tokens también se
@@ -77,8 +84,21 @@ def llamar_modelo(historial, sistema):
     tokens_salida = ((uso.candidates_token_count or 0) + (uso.thoughts_token_count or 0)) if uso else 0
 
     return {
-        "texto": respuesta.text or "",
+        "texto": texto,
         "tokens_entrada": tokens_entrada,
         "tokens_salida": tokens_salida,
         "modelo": nombre_del_modelo,
     }
+
+
+def motivo_sin_texto(respuesta):
+    """Por qué una respuesta vino vacía: el bloqueo del prompt o el fin del candidato."""
+    feedback = getattr(respuesta, "prompt_feedback", None)
+    if feedback is not None and getattr(feedback, "block_reason", None):
+        return str(feedback.block_reason)
+
+    for candidato in (respuesta.candidates or []):
+        if getattr(candidato, "finish_reason", None):
+            return str(candidato.finish_reason)
+
+    return "desconocido"
