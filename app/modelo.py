@@ -61,7 +61,13 @@ def llamar_modelo(historial, sistema):
     respuesta = cliente.models.generate_content(
         model=nombre_del_modelo,
         contents=contenidos,
-        config=types.GenerateContentConfig(system_instruction=sistema),
+        config=types.GenerateContentConfig(
+            system_instruction=sistema,
+            # Este asistente no usa herramientas: todo el Reglamento va en el
+            # prompt. Se desactiva la llamada automática a funciones para que el
+            # SDK no avise de algo que aquí nunca va a pasar.
+            automatic_function_calling=types.AutomaticFunctionCallingConfig(disable=True),
+        ),
     )
 
     uso = respuesta.usage_metadata
