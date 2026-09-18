@@ -144,7 +144,13 @@ def main(argumentos=None):
         """
         tarea = asyncio.ensure_future(asyncio.to_thread(funcion, *args))
         while not tarea.done():
-            await chat.send_action(ChatAction.TYPING)
+            try:
+                await chat.send_action(ChatAction.TYPING)
+            except Exception:
+                # El aviso es cosmético: si la red de Telegram se tarda en
+                # aceptarlo, no hay razón para tirar una respuesta que el
+                # modelo ya está preparando (y que ya costó una llamada).
+                pass
             await asyncio.wait([tarea], timeout=4)
         return tarea.result()
 
@@ -202,7 +208,18 @@ def main(argumentos=None):
         bitacora.escribir(id=identificador, pregunta=texto, canal="telegram",
                           usuario=anonimo, **resultado)
 
-    aplicacion = ApplicationBuilder().token(token).build()
+    # Los tiempos de espera por omisión de la librería son de unos pocos
+    # segundos. Con una red lenta eso basta para que falle hasta un aviso de
+    # "escribiendo...", así que se dan más holgados.
+    aplicacion = (
+        ApplicationBuilder()
+        .token(token)
+        .connect_timeout(20.0)
+        .read_timeout(20.0)
+        .write_timeout(20.0)
+        .pool_timeout(20.0)
+        .build()
+    )
     aplicacion.add_handler(CommandHandler("start", inicio))
     aplicacion.add_handler(CommandHandler("fuente", fuente))
     aplicacion.add_handler(CommandHandler("reset", reset))
