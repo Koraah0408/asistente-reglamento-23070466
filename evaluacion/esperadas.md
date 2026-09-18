@@ -6,6 +6,11 @@
 >
 > Las busqué en `data/Reglamento_de_Estudiantes_del_TecNM.pdf` y en el texto que arma
 > `texto_para_prompt`, que es exactamente lo que ve el modelo.
+>
+> **Nota de honestidad:** antes de escribir esta tabla ya había visto las respuestas
+> del bot a dos preguntas parecidas a R04 (inconformarse de una sanción) y R08 (faltas
+> para reprobar), durante las pruebas reales de Telegram de la Parte H. Las 18
+> predicciones las saqué buscando en el Reglamento, pero prefiero dejarlo anotado.
 
 | # | Pregunta | Qué debería citar | Por qué |
 |---|---|---|---|
