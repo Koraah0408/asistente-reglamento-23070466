@@ -165,12 +165,15 @@ asistente-reglamento-23070466/
 
 ## Resultados
 
-COMPLETAR después de la corrida real, con los números de `evaluacion/resultados.md`:
+Corrida del banco completo contra `gemini-3.5-flash`, repartida en dos días por la cuota de la capa gratuita. El detalle está en [evaluacion/resultados.md](evaluacion/resultados.md).
 
-- respuestas correctas de 18;
-- citas inválidas en total;
-- tokens de entrada promedio por llamada y total de la corrida;
-- la estimación para el Manual de Lineamientos (334 mil caracteres).
+**18 de 18 respuestas correctas y cero citas inválidas.** Las 18 coincidieron con lo predicho en `evaluacion/esperadas.md`, incluidas las tres que debían contestar "no consta" porque el tema es del Manual de Lineamientos.
+
+Cada llamada costó **6,793 tokens de entrada en promedio** (mínimo 6,754, máximo 6,951), y la corrida completa 122,274 de entrada y 15,777 de salida. El promedio casi no se mueve porque el Reglamento entero viaja en cada llamada: son 28,224 caracteres de prompt de sistema, o sea unos 4.15 caracteres por token.
+
+Con esa proporción, agregar el Manual de Lineamientos (334,000 caracteres) costaría unos 80,388 tokens más: cada pregunta pasaría de ~6,793 a **~87,181 tokens de entrada, trece veces más**, con la cuota diaria agotándose en dos o tres preguntas y el modelo buscando la aguja entre 360 mil caracteres. La salida es dejar de mandar el documento completo y recuperar sólo los fragmentos que hagan falta.
+
+Vale la pena anotar un límite de esta evaluación: como el modelo no inventó ninguna cita, **el aviso de citas inválidas nunca se disparó con el modelo real**. Sólo se le ha visto funcionar contra `modelo_simulado.py`, cuyo guion trae un `Art. 31, fracc. II` inventado a propósito.
 
 ## Límites y ética
 
@@ -184,4 +187,17 @@ No guarda datos personales. En la bitácora del bot nunca se escribe el identifi
 
 ## Declaración de uso de IA
 
-COMPLETAR al final, con lo que realmente haya pasado. Como referencia de lo que va aquí: qué herramienta se usó, para qué parte y qué hubo que corregirle. La traza de la Parte E y las respuestas esperadas de `evaluacion/esperadas.md` no se generaron con un asistente.
+Usé **Claude Code (modelo Opus 5)** para escribir el código de `app/`, el prompt de sistema, las pruebas, este README y el análisis de `evaluacion/resultados.md`.
+
+**Lo que no salió de un asistente:**
+
+- `traza_manual.md` (Parte E) la escribí a mano, prediciendo primero y comparando después, como pide la sección 15 del documento de la práctica.
+- Las respuestas esperadas de `evaluacion/esperadas.md` son mi lectura del Reglamento. Las saqué buscando artículo por artículo en el documento antes de correr el lote; el asistente sólo me ayudó a hacer las búsquedas por palabra dentro del texto y me señaló trampas, como que "falta" en el Reglamento significa infracción y no inasistencia, o que el Art. 2 es el de las definiciones y casi nunca contesta una pregunta. Las decisiones de qué citar en cada renglón fueron mías, y las tengo anotadas en la columna "Por qué".
+
+**Lo que hubo que corregirle al asistente:**
+
+- Una prueba comparaba el encabezado del Art. 9 contra un texto que no era el del JSON y reventaba; se corrigió leyendo la línea real.
+- El bot se caía con un `Timed out` que parecía de Gemini y no lo era: el aviso de "escribiendo..." es una llamada aparte a la API de Telegram, y si ésa se tardaba, la excepción tiraba una respuesta que el modelo ya había generado, gastando una llamada de cuota para nada. Salió probando con el modelo real, no escribiendo código, y se arregló ignorando los fallos del aviso y subiendo los tiempos de espera de la librería.
+- El SDK imprimía un aviso sobre *automatic function calling* en cada respuesta; se desactivó explícitamente, que además es lo correcto: este asistente no usa herramientas.
+
+**Una nota de honestidad sobre el orden de trabajo:** las pruebas reales de Telegram (Parte H) se hicieron antes de escribir `esperadas.md`, y dos de esos mensajes tocaban temas equivalentes a R04 y R08. Está anotado también al principio de `evaluacion/esperadas.md`.
